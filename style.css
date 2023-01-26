@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto+Slab&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+}
+.constant{
+    /* position: absolute; */
+    background-color: rgb(227, 174, 174);
+    width: 15vw;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.constant nav{
+    padding: 25px;
+}
+.constant nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.constant nav li a{
+    text-decoration: none;
+    color: black;
+    /* font-size: 30px; */
+    /* padding: 33px 0; */
+    /* font-family: 'Baloo Bhai 2', cursive; */
+}
+.main{
+    width: 90vw;
+    /* background-color: green; */
+}
+.container{
+    display: flex;
+    /* height: 100vh; */
+}
+
+.infocontainer{
+    /* background-color: pink; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    /* font-family: 'Roboto Slab', serif; */
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.devpic img{
+      height: 58vh;
+}
+
+.hello{
+    font-size: 50px;
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.name{
+font-size: 65px;
+font-weight: bold;
+/* font-family: 'Baloo Bhai 2', cursive */
+}
+
+.about{
+font-size: 40px;
+font-family: 'Baloo Bhai 2', cursive;
+}
+.aboutmore{
+    font-size: 22px;
+    margin: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.button{
+    /* margin-top: 45px; */
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(10, 82, 106);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.buttons button:hover{
+  background-color: blue;
+  color: aliceblue;
+}
+.constantgo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    cursor: pointer;
+    top: 0px;
+    left: -5px;
+    position: absolute;
+    /* background-color: rgb(227, 174, 174); */
+}
+.ham{
+    top:-5px ;
+    width: 55px;
+}
+.cross{
+    /* background-color:rgb(227, 174, 174);  */
+    position: absolute;
+    left: 12.2vw;
+    top: 0px;
+}
+@media (max-width:1175px){
+    /* *{ */
+        /* background-color: red; */
+    /* } */
+    /* .constant{
+    transform: translate(-443px,0px);
+    position: absolute;
+    } */
+}

@@ -1,0 +1,87 @@
+.Aboutme{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.myskill{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 15px;
+    font-weight: bold;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.html{
+    /* margin-top: 10px; */
+    background-color: red;
+    width: 57vw;
+    height: 5px;
+}
+.css{
+    /* margin-top: 10px; */
+    background-color: red;
+    width: 57vw;
+    height: 5px;
+}
+.javascript{
+    /* margin-top: 10px; */
+    background-color: red;
+    width: 57vw;
+    height: 5px; 
+}
+.nodejs{
+    /* margin-top: 10px; */
+    background-color: red;
+    width: 57vw;
+    height: 5px;
+}
+.c{
+    /* margin-top: 10px; */
+    background-color: red;
+    width: 57vw;
+    height: 5px;
+}
+.CC{
+    /* margin-top: 10px; */
+    background-color: red;
+    width: 57vw;
+    height: 5px;
+}
+.python{
+    /* margin-top: 10px; */
+    background-color: red;
+    width: 57vw;
+    height: 5px;
+}
+.dsa{
+    /* margin-top: 10px; */
+    background-color: red;
+    width: 57vw;
+    height: 5px;
+}
+
+.hundred{
+    background-color: rgb(235, 5, 5);
+    width: 80vw;
+    height: 5px;
+    border: 2px solid black;
+}
+.seventyfifty{
+    background-color:  rgb(246, 6, 158);
+    width: 60vw;
+    height: 5px;
+    border: 2px solid black;
+}
+.fifty{
+    background-color:  rgb(7, 78, 243);
+    width: 40vw;
+    height: 5px;
+    border: 2px solid black;
+}
+.twentyfive{
+    background-color:  rgba(89, 8, 11, 0.672);
+    width: 20vw;
+    height: 5px;
+    border: 2px solid black; 
+}

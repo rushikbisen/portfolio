@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto+Slab&family=Sofia+Sans+Condensed:ital,wght@0,100;0,200;1,100&display=swap'); 
+.contactform{
+padding-top:144px ;
+padding-left: 15px;
+}
+
+.contactform h1{
+    font-family: serif;
+    /* text-align: center; */
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+/* .contactform form div{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+} */
+.contactform form div input{
+width: 26vw;
+border-radius: 5px;
+margin: 6px 0 0 0;
+padding: 3px;
+}
+ #clientemail{
+    font-size:15px;
+    color: blue;
+    margin: 6px 0px;
+ }
+ .bold{
+    font-weight: bold;
+ }
+ .form-text{
+    color: blue;
+ }
+ #form-check{
+    flex-direction: row;
+ }
+ #form-check input{
+    width: 24px;
+    margin: 3px 0px;
+ }
+ .btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(10, 82, 106);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+    color: aliceblue;
+  }
+
+.name{
+    font-size: 15px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
